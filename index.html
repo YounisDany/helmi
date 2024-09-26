@@ -8,14 +8,14 @@
         background-color: #f5f5f5;
     }
 
-    h2, h3, h4 {
+    /* اللون الأبيض للنصوص إذا كانت الخلفية سوداء */
+    .bg-dark h2, .bg-dark h3, .bg-dark h4, .bg-dark p, .bg-dark ul li {
         color: #ffffff;
-        font-weight: bold;
     }
 
-    p, ul {
-        font-size: 16px;
-        color: #ffffff;
+    /* اللون الأسود للنصوص إذا كانت الخلفية بيضاء */
+    .bg-light h2, .bg-light h3, .bg-light h4, .bg-light p, .bg-light ul li {
+        color: #000000;
     }
 
     ul {
@@ -25,7 +25,6 @@
 
     ul li {
         margin-bottom: 10px;
-        color: #dcdcdc;
     }
 
     .bg-dark {
@@ -93,7 +92,7 @@
             </div>
 
             <!-- Section 2: Main Content -->
-            <div class="col-md-8 bg-light p-4"style="color:black;">
+            <div class="col-md-8 bg-light p-4">
                 <h3 class="section-title"><img src="https://cdn-icons-png.flaticon.com/512/1946/1946429.png" class="icon">نبذة شخصية</h3>
                 <p>
                     انني محترف استثنائي أجمع بين مهارات مسؤول النظام ومهارات مهندس الشبكات، مما يجعلني ركيزة أساسية في المؤسسة التي أعمل لديها. بفضل خبرتي الواسعة وشغفي العميق، أساهم بشكل فعال في تعزيز كفاءة وأمان الأنظمة والبنى التحتية للمؤسسة.
