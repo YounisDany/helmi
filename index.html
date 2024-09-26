@@ -1,1 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+  .main {
+    background-color: aqua;
+    width: 600px;
+    height: 800px;
+    margin-left: 200px;
+}
+.s1 {
+    background-color: rgb(250, 247, 247);
+    width: 700px;
+    height: 950px;
+    float: right;
+    text-align: right;
+}
+.s2 {
+    background-color: #284e6d;
+    width: 280px;
+    height: 950px;
+    display: inline-block;
+    box-shadow: rgb(37, 55, 62);
+    float: right;
+    text-align: right;
+    color: white;
+}
+.s {
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #284e6d;
+    animation: fadein 2s ease-in-out;
+}
+.pp {
+    text-align: center;
+    font-weight: bold;
+}
+.k, .A, .m {
+    background-color: #284e6d;
+    width: 200px;
+    font-size: 2em;
+    margin-top: 40px;
+    margin-block-end: 5px;
+    text-align: center;
+    color: rgb(250, 247, 247);
+    border: 1px solid rgb(250, 247, 247);
+    margin-left: auto;
+    margin-right: auto;
+    animation: fadein 2s ease-in-out;
+}
+.pon, .language, .hoppies {
+    background-color: rgb(250, 247, 247);
+    width: 200px;
+    font-size: 2em;
+    margin-top: 40px;
+    margin-block-end: 5px;
+    text-align: center;
+    color: #284e6d;
+    border: 1px solid rgb(37, 55, 62);
+    margin-left: auto;
+    margin-right: auto;
+    animation: fadein 2s ease-in-out;
+}
+.imgs {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 45px;
+    border: dimgrey;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: rotate 3s infinite linear;
+}
+.im {
+    width: 30px;
+    height: 30px;
+    margin-top: 3px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.contact-info {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+    animation: slidein 1s ease-out;
+}
+.p1, .p2, .p3 {
+    color: white;
+    display: inline-block;
+    margin-left: 10px;
+}
+li {
+    font-size: 20px;
+    animation: slidein 1s ease-out;
+}
 
+/* Animations */
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slidein {
+    from { transform: translateX(100%); }
+    to { transform: translateX(0); }
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}</style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>helmi</title>
+    <link rel="stylesheet" href="helmi_updated.css">
+</head>
+<body>
+    <div class="container">
+        <div class="s1">
+            <h1 class="s animated-fadein">محمد  عبدالحبيب  العامري</h1>
+            <p class="pp animated-slidein">مسؤول نظام ومهندس شبكات </p>
+            <p class="ppp animated-slidein">انني محترف استثنائي اجمع بين مهارات مسؤول النظام ومهارات مهندس الشبكات ,مما يجعلني ركيزة اساسية في المؤسسة التي اعمل لديها بفضل خبرتي الواسعه وشغفي العميق اساهم بشكل ك فعال في تعزيز كفائه وامان الانظمة والبنئ التحتية للمؤسسة</p>   
+
+            <h1 class="k animated-fadein">خبرات العمل</h1>
+            <ul>
+                <li class="animated-slidein">-عملت لدئ مواني البحر الاحمر من عام 2010</li> 
+                <li class="animated-slidein">لقد قمت بالعمل مع المستشار التقني في اعداد الدراسات لمشروع الاتمتة في مؤسسة المواني</li>
+                <li class="animated-slidein">لقد قمت بالعمل مع كمشرف علئ تجهيز مشروع الداتا سنتر </li>
+                <li class="animated-slidein">عملت كرئيس للفريق التقني لمشروع الشبكات والسيرفرات</li>
+            </ul>
+
+            <h1 class="A animated-fadein">المؤهلات التعليمية</h1>
+            <ul>
+                <li class="animated-slidein">دبلوم فني ادارة تنمية حاسوب :المعهد الوطني للعلوم الادارية</li>
+                <li class="animated-slidein">تمديدات كهربائية صناعية:التعليم الفني</li>
+                <li class="animated-slidein">MCSA CORE</li>
+                <li class="animated-slidein">MICROSOFT SQL SERVER</li>
+            </ul>
+
+           <h1 class="m animated-fadein">المهارات</h1>
+        </div>
+
+        <div class="s2">
+          <img class="imgs animated-rotate" src="img/mido.jpg" alt="صورة">
+
+          <h2 class="pon animated-slidein">:معلومات الاتصال</h2>
+          <div class="contact-info animated-slidein">
+              <img class="im" src="img/٢٠٢٤٠٩١٤_٢٠٠٥٥٤.png" alt="شعار"><p class="p1">+967 770 370 179</p>
+          </div>
+          <div class="contact-info animated-slidein">
+              <img class="im" src="img/٢٠٢٤٠٩١٤_٢٠٠٤٢٢.png" alt="شعار"><p class="p2">Eng.alameri@gmail.com</p>
+          </div>
+          <div class="contact-info animated-slidein">
+              <img class="im" src="img/٢٠٢٤٠٩١٤_٢٠٠٥٠٢.png" alt="شعار"><p class="p3">اليمن,الحديدة</p>
+          </div>
+
+          <h2 class="language animated-slidein">:اللغات</h2>
+          <ul>
+              <li class="animated-slidein">العربية</li>
+              <li class="animated-slidein">الانجليزية</li>
+          </ul>
+
+          <h2 class="hoppies animated-slidein">:الهوايات</h2>
+          <ul>
+              <li class="animated-slidein">القراءة</li>
+              <li class="animated-slidein">دراسة اكثر عن مجالي</li>
+              <li class="animated-slidein">السفر</li>
+              <li class="animated-slidein">الرياضة</li>
+          </ul>
+      </div>
+    </div>
+
+</body>
+</html>
